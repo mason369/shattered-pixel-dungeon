@@ -115,7 +115,6 @@ public class AndroidGame extends AndroidApplication {
 		Button.longClick = ViewConfiguration.getLongPressTimeout()/1000f;
 		
 		initialize(new ShatteredPixelDungeon(support), config);
-		
 	}
 
 	@Override
